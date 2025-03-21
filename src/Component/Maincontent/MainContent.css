@@ -1,0 +1,14 @@
+#root{
+  height: 200vh;
+}
+
+
+.title-exp{
+  background: linear-gradient(50deg, #5BADFF , #1373D1);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}

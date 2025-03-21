@@ -1,0 +1,50 @@
+.exp-logo{
+    display: grid;
+    grid-template-columns: repeat(4 ,200px);
+    grid-template-rows: repeat(3, 150px);
+    width: 400px;
+    height: 400px;
+    margin-top: 20%;
+    align-items: center;
+    justify-items: center;
+}
+
+.logo-size{
+  width: 100px;
+  height: 120px;
+}
+
+.title{
+    background: linear-gradient(10deg, #FF8660 , #D5491D);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+}
+
+
+
+/*
+RESPONSIVE
+*/
+
+/*
+PHONES
+*/
+
+@media (min-width: 480px) and (max-width: 767px){
+.exp-logo{
+    display: grid;
+    grid-template-columns: repeat(4 ,100px);
+    grid-template-rows: repeat(3, 150px);
+    width: 400px;
+    height: 400px;
+    margin-top: 15%;
+    margin: auto;
+  }
+
+.logo-size{
+  width: 70px;
+  height: 90px;
+  }
+}
