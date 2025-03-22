@@ -1,5 +1,6 @@
 #root{
-    height: 280vh;
+    height: 270vh;
+    width: auto;
 }
 
 .footer-container{
@@ -7,6 +8,7 @@
     grid-template-columns: repeat(1,auto);
     grid-template-rows: repeat(4,100px);
     justify-items: left;
+    padding: 2% 8%;
 }
 
 
@@ -20,6 +22,7 @@
 }
 
 .footer-email{
+    margin-top: 2%;
     color: #C5C5C5;
 }
 
@@ -31,4 +34,22 @@
 .footer-img{
     height: 35px;
     width: 35px;
+}
+
+@media (min-width: 350px) and (max-width: 767px){
+   .footer-container{
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(4,auto);
+    gap: 20px;
+    padding: 10% 10%;
+   }
+
+   .footer-email{
+    margin-top: 0;
+   }
+
+
+   #root{
+    height: 275vh;
+   }
 }

@@ -1,12 +1,14 @@
 .exp-logo{
     display: grid;
-    grid-template-columns: repeat(4 ,200px);
+    grid-template-columns: repeat(4 ,175px);
     grid-template-rows: repeat(3, 150px);
     width: 400px;
     height: 400px;
-    margin-top: 20%;
+    margin-top: 5%;
     align-items: center;
     justify-items: center;
+    padding: 0 27%;
+    margin-bottom: -5%;
 }
 
 .logo-size{
@@ -32,7 +34,7 @@ RESPONSIVE
 PHONES
 */
 
-@media (min-width: 480px) and (max-width: 767px){
+@media (min-width: 350px) and (max-width: 767px){
 .exp-logo{
     display: grid;
     grid-template-columns: repeat(4 ,100px);
@@ -41,10 +43,12 @@ PHONES
     height: 400px;
     margin-top: 15%;
     margin: auto;
+    margin-bottom: -15%;
+    padding: 0;
   }
 
 .logo-size{
-  width: 70px;
-  height: 90px;
+  width: 60px;
+  height: 80px;
   }
 }

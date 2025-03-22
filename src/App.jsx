@@ -33,7 +33,7 @@ function App() {
         <section className='main-content'>
         <MainContent />
         </section>
-        <footer>
+        <footer className='footer'>
         <Footer 
                 title="Contact" 
                 description="I’m always open to new opportunities, collaborations, and exciting discussions about technology. Whether you have a project idea, need a dedicated developer, or just want to exchange thoughts on coding, innovation, and the latest tech trends, I’d love to hear from you!As an aspiring Full-Stack Developer, I am passionate about creating seamless digital experiences and solving real-world problems through code. If you’re looking for someone who values clean code, performance, and efficiency, let’s connect and explore how we can work together."

@@ -6,6 +6,12 @@
     border-radius: 50%;
     background: linear-gradient(90deg, #FF8660, #9A33FF, #FF8660);
   }
+
+  .hero-name{
+    color: orangered;
+    margin-top: 2%;
+    margin-bottom: -3%;
+  }
   
   .hero-title{
     margin-top: 5%;
@@ -33,7 +39,7 @@
     animation: gradient-move 3s infinite linear;
   }
 
-  @media (min-width: 480px) and (max-width: 767px){
+  @media (min-width: 350px) and (max-width: 767px){
 
     .myImage{
       height: 150px;
@@ -52,5 +58,10 @@
     .hero-des{
       font-size: 16px;
       margin-top: 2%;
+    }
+
+    .hero-name{
+      font-size: 24px;
+      margin-bottom: -5%;
     }
   }
