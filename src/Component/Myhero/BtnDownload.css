@@ -7,6 +7,10 @@
     flex: 1 1 0;
 }
 
+li{
+    list-style: none;
+}
+
 @media (min-width: 350px) and (max-width: 767px){
     .btn-download{
         padding: 7px 17px;

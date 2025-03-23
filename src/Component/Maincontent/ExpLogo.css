@@ -1,20 +1,30 @@
-.exp-logo{
-    display: grid;
-    grid-template-columns: repeat(4 ,175px);
-    grid-template-rows: repeat(3, 150px);
-    width: 400px;
-    height: 400px;
-    margin-top: 5%;
-    align-items: center;
-    justify-items: center;
-    padding: 0 27%;
-    margin-bottom: -5%;
+.parent-explogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; 
+  margin: 0;
+  padding: 0;
 }
 
-.logo-size{
+.exp-logo {
+  display: grid;
+  grid-template-columns: repeat(4, 175px);
+  grid-template-rows: repeat(3, 150px);
+  width: fit-content;
+  height: fit-content;
+  align-items: center;
+  justify-items: center;
+  padding: 0;
+  margin: 0;
+  margin-bottom: -5%;
+}
+
+.logo-size {
   width: 100px;
   height: 120px;
 }
+
 
 .title{
     background: linear-gradient(10deg, #FF8660 , #D5491D);

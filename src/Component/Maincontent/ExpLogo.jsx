@@ -13,6 +13,7 @@ export function ExpLogo(){
     return(
         <>
         <h1 className='title'>Experience With</h1>
+        <div className='parent-explogo'>
         <div className="exp-logo">
             <img src={html} alt="logo" className='logo-size' />
             <img src={css} alt="logo" className='logo-size' />
@@ -22,6 +23,7 @@ export function ExpLogo(){
             <img src={node} alt="logo" className='logo-size' />
             <img src={react} alt="logo" className='logo-size' />
             <img src={postgres} alt="logo" className='logo-size' />
+            </div>
         </div>
         </>
     );
