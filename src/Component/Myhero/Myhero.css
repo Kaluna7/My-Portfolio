@@ -1,11 +1,13 @@
-
-
 .myImage{
     height: 200px;
     width: 200px;
     border-radius: 50%;
     background: linear-gradient(90deg, #FF8660, #9A33FF, #FF8660);
   }
+
+.myImage:hover{
+  transform: scale(1.1);
+}
 
   .hero-name{
     color: orangered;

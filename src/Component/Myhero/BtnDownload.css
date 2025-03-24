@@ -5,6 +5,13 @@
     font-weight: bold;
     font-size: 15px;
     flex: 1 1 0;
+    
+}
+
+.btn-download:hover{
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
 }
 
 li{
