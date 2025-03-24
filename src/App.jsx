@@ -20,6 +20,10 @@ function App() {
     { src: instagram, link: "https://www.instagram.com/kaluna_._?utm_source=qr&igsh=MTVybWZ6aTN3eTRtZQ== " }
   ]
 
+  function getEmail() {
+    window.location.href = "mailto:kaluna12345678910@gmail.com";
+  }
+
   return (
     <>
     <Header />
@@ -27,8 +31,9 @@ function App() {
         <Myhero {...Hero[0]}/>
         </div>
         <section className='btn-container'>
-            <BtnDownload label="Get in Touch" />
-            <BtnDownload label="Download CV" varian="transparent" />
+          <BtnDownload label="Get in Touch" onClick={getEmail} />
+
+            <BtnDownload label="Download CV" varian="transparent,download" />
         </section>
         <section id='exp' className='main-content'>
         <MainContent />
